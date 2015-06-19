@@ -1,0 +1,174 @@
+@media screen and (max-width: 1060px) {
+    #primary { width:100%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+
+
+}
+#header-wrapper{
+	background-color: black;
+}
+
+body{
+	background-image:url("../Coffee_images/coffee-heart.jpg");
+}
+.container{
+	background: white;
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+#header-wrapper header{
+	background-color: orange;
+	height: 220px;
+	color: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 24px;
+	text-align: left;
+}
+
+#header-wrapper header h1{
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+	color: white;
+	text-shadow:0 0 30px #fff, 0 0 70px #ffff00;
+	font-family: 'Cinzel', serif;
+}
+#header-wrapper header p{
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px;
+	color:white;
+	font-size: 20px;
+	font-family: 'Josefin Slab', serif;
+}
+
+#top-links{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: 20px;
+	top:20px;
+	right:20px;
+}
+
+#top-links li {
+	float: right;
+	margin: 0 10px;
+}
+
+#top-links li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+#top-links li a:hover{
+	background-color: purple;
+}
+
+#nav-wrapper nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+#nav-wrapper nav ul li{
+	float: left;
+	margin-left: 40px;
+	
+}
+#nav-wrapper nav ul li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-weight: bold;
+	font-family: 'Cinzel', serif;
+}
+
+#nav-wrapper nav ul li a:hover{
+	background-color: black;
+	color: white;
+}
+
+#content{
+	
+	min-height: 1100px;
+
+}
+
+#content #main-content{
+	float:left;
+	width:60%;
+	height: 100%;
+	overflow: hidden;
+
+}
+
+#content #side-content{
+	float:left;
+	width:40%;
+	height:1100px;
+	background-color: black;
+	
+}
+
+p{
+	color:white;
+	word-spacing: 1px;
+	line-height: 25px;
+	margin:30px 30px 20px 30px;
+
+}
+
+#content #side-content ul{
+	color: white;
+}
+
+#content #side-content a:hover{
+	color: purple;
+}
+
+
+#footer-wrapper{
+	background-color:#e2e8f2;
+}
+
+#footer-wrapper footer{
+	height: 200px;
+	position: relative;
+}
+
+#footer-wrapper footer #footer-address{
+	color: black;
+	font-size:30px;
+	position: absolute;
+	top:20px;
+	right: 90px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#footer-wrapper footer #footer-contact{
+	color: black;
+	font-size:30px;
+	position: absolute;
+	top:20px;
+	left: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+

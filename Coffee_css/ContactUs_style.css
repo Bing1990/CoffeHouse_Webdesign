@@ -1,0 +1,348 @@
+@media screen and (max-width: 1060px) {
+    #primary { width:100%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+
+
+}
+#header-wrapper{
+	background:url(Coffee_javascript/cityscapes.jpg) no-repeat left top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 1050px;
+}
+.container{
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+img{
+	position: absolute;
+}
+#nav-wrapper nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+#nav-wrapper nav ul li{
+	float: right;
+	margin-top: 50px;
+	margin-right:20px;
+}
+#nav-wrapper nav ul li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-size: normal;
+}
+
+#nav-wrapper nav ul li a:hover{
+	background-color: black;
+	color: white;
+}
+
+#content{
+	min-height: 1000px;
+}
+
+
+#header-wrapper header{
+	height: 200px;
+	color: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+}
+
+
+#header-wrapper header h1{
+	float: left;
+	margin-left: 100px;
+	margin-top: 350px;
+	color: white;
+	text-shadow: 0 1px 0 #ccc,
+	0 2px 0 #c9c9c9,
+	0 3px 0 #bbb,
+	0 4px 0 #b9b9b9,
+	0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),
+	0 0 5px rgba(0,0,0,.1),
+	0 1px 3px rgba(0,0,0,.3),
+	0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),
+	0 10px 10px rgba(0,0,0,.2),
+	0 20px 20px rgba(0,0,0,.15);
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	letter-spacing: -1px;
+}
+
+#header-wrapper header p{
+	float: left;
+	margin-top: 20px;
+	color: white;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 700px;
+	text-align: left;
+	line-height: 28px;
+	
+}
+
+
+.content .contact-form{
+	border:0.5px solid rgba(0, 0, 0, 0.5);
+	margin:260px 40px 50px 1000px;
+	font-size: 24px;
+}
+
+
+
+.content .contact-form input {
+	line-height: 30px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgb(161, 161, 161);
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding: 5px;
+	overflow: hidden;
+	width: 70%;
+}
+
+
+
+
+.content .contact-form textarea{
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 20px;
+	color: #fff;
+	width: 70%;
+	min-height: 280px;
+	margin-top: -220px;
+	
+}
+
+
+
+.contact-block{
+	height:222px;
+	padding-right: 764px;
+	border:0;
+	background: #d74e4b;
+	position: relative;
+	overflow: hidden;
+	clear: both;
+	border-style: solid;
+	border-color: #e9e9e9;
+	color: #c8c9c9;
+}
+
+
+.contact-block .red-block .bg-text{
+	font-size: 5.2em;
+	height: 70px;
+	display: block;
+	left: -11px;
+	position: absolute;
+	color: #aa3f3d;
+	font-weight: bold;
+	font-family: 'Anton', sans-serif;
+	bottom: 0;
+}
+
+.contact-block .red-block .paper-airplane {
+	width: 57px;
+	height: 56px;
+	display: block;
+	position: relative;
+	float: right;
+	margin: 72px 79px 0 40px;
+	background: transparent url(../Coffee_images/paper-airplane.png) 0 0 no-repeat;
+}
+
+.contact-block .red-block span{
+	padding-right: 46px;
+	margin-top: 58px;
+	font-size: 3em;
+	text-transform: none;
+	padding: 0 41px 9px 0;
+	margin-top: 54px;
+	float: right;
+	border-right: 1px solid #ea9c99;
+	margin-bottom: 1em;
+	margin-left: 20px;
+	position: relative;
+	color: white;
+	top: -20px;
+}
+
+.contact-block .right-panel{
+	width:764px;
+	height:100%;
+	position:absolute;
+	top:0;
+	right:0;
+	background: #252729;
+}
+
+
+.contact-block img {
+	width: 302px;
+	margin: 0;
+	float: left;
+	position: relative;
+}
+
+
+.contact-block .description {
+	height: 148px;
+	float: left;
+	padding-top:20px;
+	padding-left:44px;
+	margin-top: -40px;
+}
+
+.contact-block .description p{
+	text-align: left;
+	line-height: 1.2;
+	font-size: 2.5em;
+	color: #c8c9c9;
+}
+
+.contact-block .description p a{
+	display: block;
+	margin-right: 70px;
+	text-decoration: none;
+}
+
+
+.contact-block .description p .red {
+	color: #da4e48;
+	font-size: .7333em;
+	margin-top: 18px;
+	font-family: 'Copse', serif;
+}
+
+
+.contact-block .description p .brown{
+	color: #616161;
+	font-size: .7333em;
+	margin-top: 18px;
+	font-family: 'Copse', serif;
+}
+
+
+.contact-block .description p .white {
+	color: #fff;
+	font-size: .7333em;
+	margin-top: 18px;
+	font-family: 'Copse', serif;
+}
+
+#map-div {
+	position: relative;
+	background-color: rgb(229,227,223);
+	overflow:hidden;
+	width: 100%;
+	height:500px;
+}
+
+
+
+#footer-wrapper{
+	background-color:#e2e8f2;
+	border:1px solid purple;
+	overflow: block;
+}
+
+#footer-wrapper footer{
+	min-height: 200px;
+	position: relative;
+	
+}
+
+#footer-wrapper footer #footer-address{
+	color: black;
+	font-size: 30px;
+	margin-top: 80px;
+	right: 90px;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#footer-wrapper footer #footer-contact{
+	color: black;
+	font-size: 30px;
+	margin-top: 80px;
+	right: 590px;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+#footer-wrapper footer #footer-image{
+	font-size: 15px;
+	margin-top: 60px;
+	left:130px;
+	position: absolute;
+}
+
+#footer-wrapper footer #footer-facebook{
+	font-size: 15px;
+	margin-top: 160px;
+	right:450px;
+	position: absolute;
+}
+
+#footer-wrapper footer #footer-twitter{
+	font-size: 15px;
+	margin-top: 160px;
+	right:510px;
+	position: absolute;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

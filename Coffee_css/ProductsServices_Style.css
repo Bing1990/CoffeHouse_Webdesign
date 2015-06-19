@@ -1,0 +1,565 @@
+@media screen and (max-width: 1060px) {
+    #primary { width:100%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+
+
+}
+#header-wrapper{
+	background:url(Coffee_images/owl.jpg) no-repeat left top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 800px;
+}
+.container{
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+img{
+	position: absolute;
+}
+
+
+
+#header-wrapper header{
+	height: 200px;
+	color: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+}
+
+
+
+#header-wrapper header h1{
+	float: center;
+	margin-left: 100px;
+	margin-top: 350px;
+	color: white;
+	text-shadow: 0 1px 0 #ccc,
+	0 2px 0 #c9c9c9,
+	0 3px 0 #bbb,
+	0 4px 0 #b9b9b9,
+	0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),
+	0 0 5px rgba(0,0,0,.1),
+	0 1px 3px rgba(0,0,0,.3),
+	0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),
+	0 10px 10px rgba(0,0,0,.2),
+	0 20px 20px rgba(0,0,0,.15);
+	font-size: 60px;
+	font-family: 'Playfair Display SC', serif;
+}
+
+#header-wrapper header p{
+	float: right;
+	margin-right: 80px;
+	margin-top: 70px;
+	color:white;
+	font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 5px;
+	line-height: 50px
+}
+
+#nav-wrapper nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+#nav-wrapper nav ul li{
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+#nav-wrapper nav ul li a{
+	display: block;
+	color: grey;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-weight: bold;
+	font-size: large;
+}
+
+#nav-wrapper nav ul li a:hover{
+	background-color: grey;
+	color: white;
+	border-radius: 40px;
+
+}
+
+#content{
+	min-height: 1000px;
+}
+
+
+#Product_Services{
+	background:url(../Coffee_images/irish-coffee.jpg) no-repeat left top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 400px;
+	border-top:3px solid  white;
+	border-bottom:3px solid  white;
+	
+}
+
+#Product_Services .Container{
+	min-height: 400px;
+	position: relative;
+	height:200px;
+	margin-top: 200px;
+
+}
+
+
+#Product_Services .Container h2{
+	color: white;
+	font-size: 32px;
+	margin-top: 30px;
+	right:240px;
+	position: absolute;
+	text-shadow:0 0 30px #fff, 0 0 70px #ffff00;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid white;
+}
+
+
+.Container #title{
+	max-width: 100%;
+	margin:80px 30px 20px 90px;
+}
+
+#Product_Services .Container p{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	word-spacing:5px;
+	line-height: 40px;
+	margin:80px 40px 20px 800px;
+	
+}
+
+#Product_Services .Container a:hover{
+	color: white;
+	
+}
+
+#GroundCoffee_Packs{
+	background: #1A5A92;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 400px;
+	border-top:3px solid  white;
+	border-bottom:3px solid  white;
+	
+}
+
+#GroundCoffee_Packs .Container{
+	min-height: 400px;
+	position: relative;
+	height:200px;
+
+}
+
+
+#GroundCoffee_Packs .Container h2{
+	color: white;
+	font-size: 32px;
+	margin-top: 30px;
+	right:240px;
+	position: absolute;
+	text-shadow:0 0 30px #fff, 0 0 70px #ffff00;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid #103E66;
+}
+
+
+.Container #title{
+	max-width: 100%;
+	margin:80px 30px 20px 90px;
+}
+
+#GroundCoffee_Packs .Container p{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	word-spacing:5px;
+	line-height: 40px;
+	margin:80px 40px 20px 800px;
+	
+}
+
+#GroundCoffee_Packs .Container a{
+	color: white;
+	}
+
+
+#GroundCoffee_Packs .Container a:hover{
+	color: blue;
+	
+}
+
+
+#GroundCoffee_Packs .Container img{
+	height: auto;
+	max-width: 100%;
+	margin-left: 100px;
+	overflow: block;
+
+}
+
+
+
+
+#SingleServing_Cartridges{
+	background: #E06245;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 400px;
+	border-top:3px solid  white;
+	border-bottom:3px solid  white;
+	
+}
+
+#SingleServing_Cartridges .Container{
+	min-height: 400px;
+	position: relative;
+	height:200px;
+
+}
+
+
+#SingleServing_Cartridges .Container h2{
+	color: white;
+	font-size: 32px;
+	margin-top: 30px;
+	right:100px;
+	position: absolute;
+	text-shadow:0 0 30px #fff, 0 0 70px #ffff00;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid white;
+}
+
+
+.Container #title{
+	max-width: 100%;
+	margin:80px 30px 20px 90px;
+}
+
+#SingleServing_Cartridges .Container p{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	word-spacing:5px;
+	line-height: 40px;
+	margin:80px 40px 20px 800px;
+	
+}
+
+#SingleServing_Cartridges .Container a{
+	color: white;
+	}
+
+
+#SingleServing_Cartridges .Container a:hover{
+	color: blue;
+	
+}
+
+
+#SingleServing_Cartridges .Container img{
+	height: auto;
+	max-width: 100%;
+	margin-left: 100px;
+	overflow: block;
+
+}
+
+#HotCold_Beverages{
+	background: #9ba54d;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 400px;
+	border-top:3px solid  white;
+	border-bottom:3px solid  white;
+	
+}
+
+#HotCold_Beverages .Container{
+	min-height: 400px;
+	position: relative;
+	height:200px;
+
+}
+
+
+#HotCold_Beverages .Container h2{
+	color: white;
+	font-size: 32px;
+	margin-top: 30px;
+	right:240px;
+	position: absolute;
+	text-shadow:0 0 30px #fff, 0 0 70px #ffff00;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid white;
+}
+
+
+.Container #title{
+	max-width: 100%;
+	margin:80px 30px 20px 90px;
+}
+
+#HotCold_Beverages .Container p{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	word-spacing:5px;
+	line-height: 40px;
+	margin:80px 40px 20px 800px;
+	
+}
+
+#HotCold_Beverages .Container a{
+	color: white;
+	}
+
+
+#HotCold_Beverages .Container a:hover{
+	color: blue;
+	
+}
+
+
+#HotCold_Beverages .Container img{
+	height: auto;
+	max-width: 100%;
+	margin-left: 100px;
+	overflow: block;
+
+}
+
+
+
+
+
+#Cream_Sugar{
+	background: #0ba9b5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 400px;
+	border-top:3px solid  white;
+	border-bottom:3px solid  white;
+	
+}
+
+#Cream_Sugar .Container{
+	min-height: 400px;
+	position: relative;
+	height:200px;
+
+}
+
+
+#Cream_Sugar .Container h2{
+	color: white;
+	font-size: 32px;
+	margin-top: 30px;
+	right:240px;
+	position: absolute;
+	text-shadow:0 0 30px #fff, 0 0 70px #ffff00;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid white;
+}
+
+
+.Container #title{
+	max-width: 100%;
+	margin:80px 30px 20px 90px;
+}
+
+#Cream_Sugar .Container p{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	word-spacing:5px;
+	line-height: 40px;
+	margin:80px 40px 20px 800px;
+	
+}
+
+#Cream_Sugar .Container a{
+	color: white;
+	}
+
+
+#Cream_Sugar .Container a:hover{
+	color: blue;
+	
+}
+
+
+#Cream_Sugar .Container img{
+	height: auto;
+	max-width: 100%;
+	margin-left: 100px;
+	overflow: block;
+
+}
+
+
+
+
+
+#Cups_Lids{
+	background: #c25442;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 400px;
+	border-top:3px solid  white;
+	border-bottom:3px solid  white;
+	
+}
+
+#Cups_Lids .Container{
+	min-height: 400px;
+	position: relative;
+	height:200px;
+
+}
+
+
+#Cups_Lids .Container h2{
+	color: white;
+	font-size: 32px;
+	margin-top: 30px;
+	right:240px;
+	position: absolute;
+	text-shadow:0 0 30px #fff, 0 0 70px #ffff00;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid white;
+}
+
+
+.Container #title{
+	max-width: 100%;
+	margin:80px 30px 20px 90px;
+}
+
+#Cups_Lids .Container p{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	word-spacing:5px;
+	line-height: 40px;
+	margin:80px 40px 20px 800px;
+	
+}
+
+#Cups_Lids .Container a{
+	color: white;
+	}
+
+
+#Cups_Lids .Container a:hover{
+	color: blue;
+	
+}
+
+
+#Cups_Lids .Container img{
+	height: auto;
+	max-width: 100%;
+	margin-left: 100px;
+	overflow: block;
+
+}
+
+
+
+#footer-wrapper{
+	background-color:#e2e8f2;
+	border:1px solid purple;
+	overflow: block;
+}
+
+#footer-wrapper footer{
+	min-height: 200px;
+	position: relative;
+	
+}
+
+#footer-wrapper footer #footer-address{
+	color: black;
+	font-size: 30px;
+	margin-top: 80px;
+	right: 90px;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#footer-wrapper footer #footer-contact{
+	color: black;
+	font-size: 30px;
+	margin-top: 80px;
+	right: 590px;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+#footer-wrapper footer #footer-image{
+	font-size: 15px;
+	margin-top: 60px;
+	left:130px;
+	position: absolute;
+}
+
+#footer-wrapper footer #footer-facebook{
+	font-size: 15px;
+	margin-top: 160px;
+	right:450px;
+	position: absolute;
+}
+
+#footer-wrapper footer #footer-twitter{
+	font-size: 15px;
+	margin-top: 160px;
+	right:510px;
+	position: absolute;
+
+}

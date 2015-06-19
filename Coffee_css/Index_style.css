@@ -1,0 +1,219 @@
+@media screen and (max-width: 1060px) {
+    #primary { width:100%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+
+
+}
+#header-wrapper{
+	background:url(images/header-wrapper.jpg) no-repeat left top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 1200px;
+}
+.container{
+	background: url(images/header-wrapper.jpg) no-repeat left top fixed;
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+img{
+	position: absolute;
+}
+
+
+
+#header-wrapper header{
+	height: 200px;
+	color: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+}
+
+
+
+#header-wrapper header h1{
+	font-family: 'Fjord One', serif;
+	float: center;
+	margin-left: 100px;
+	margin-top: 350px;
+	color: white;
+	text-shadow: 0 1px 0 #ccc,
+	0 2px 0 #c9c9c9,
+	0 3px 0 #bbb,
+	0 4px 0 #b9b9b9,
+	0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),
+	0 0 5px rgba(0,0,0,.1),
+	0 1px 3px rgba(0,0,0,.3),
+	0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),
+	0 10px 10px rgba(0,0,0,.2),
+	0 20px 20px rgba(0,0,0,.15);
+	font-size: 60px;
+}
+
+#header-wrapper header p{
+	float: right;
+	margin-right: 40px;
+	margin-top: 120px;
+	color:white;
+	font-size: 26px;
+	font-family: 'Josefin Slab', serif;
+}
+
+#nav-wrapper nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+
+}
+
+#nav-wrapper nav ul li{
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+#nav-wrapper nav ul li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#nav-wrapper nav ul li a:hover{
+	background-color: black;
+	color: white;
+	border-radius: 40px;
+
+}
+
+#content{
+	min-height: 800px;
+}
+
+
+#Feature_Product{
+	background:url(../Coffee_images/night-time.jpg) no-repeat left top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%;
+	min-height: 400px;
+		
+}
+
+#Feature_Product .Container{
+	min-height: 460px;
+	position: relative;
+	border-top:3px solid  white;
+	border-bottom:3px solid  white;
+
+}
+
+#Feature_Product .Container img{
+	height: auto;
+	max-width: 100%;
+	margin-left: 150px;
+	overflow: block;
+
+}
+
+#Feature_Product .Container h2{
+	color: white;
+	font-size: 50px;
+	margin-top: 30px;
+	right:460px;
+	position: absolute;
+	text-shadow:0 0 30px #fff, 0 0 70px #ffff00;
+	font-family: 'Playball', cursive;
+}
+
+
+.Container #title{
+	max-width: 100%;
+	margin:40px 40px 20px 60px;
+}
+
+#Feature_Product .Container p{
+	color: white;
+	font-size: 24px;
+	margin-top: 110px;
+	right:200px;
+	position: absolute;
+	word-spacing:5px;
+	line-height: 40px;
+	font-family: 'Dosis', sans-serif;
+}
+
+
+#footer-wrapper{
+	background-color:#e2e8f2;
+	border:1px solid purple;
+	overflow: block;
+}
+
+#footer-wrapper footer{
+	min-height: 200px;
+	position: relative;
+	
+}
+
+#footer-wrapper footer #footer-address{
+	color: black;
+	font-size: 30px;
+	margin-top: 80px;
+	right: 90px;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#footer-wrapper footer #footer-contact{
+	color: black;
+	font-size: 30px;
+	margin-top: 80px;
+	right: 590px;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+#footer-wrapper footer #footer-image{
+	font-size: 15px;
+	margin-top: 60px;
+	left:130px;
+	position: absolute;
+}
+
+#footer-wrapper footer #footer-facebook{
+	font-size: 15px;
+	margin-top: 160px;
+	right:450px;
+	position: absolute;
+}
+
+#footer-wrapper footer #footer-twitter{
+	font-size: 15px;
+	margin-top: 160px;
+	right:510px;
+	position: absolute;
+
+}
